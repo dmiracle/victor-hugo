@@ -1,10 +1,28 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+title = "Hugo Learn Documentation"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
 
+[params]
+  description = "Starting with CAD"
+  showVisitedLinks = true
+  disableBreadcrumb = true
+  disableNextPrev = true
+  disableLanguageSwitchingButton = true
+  themeVariant = "sf"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[menu]
+
+  [[menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-github'></i> Github repo"
+  identifier = "ds"
+  url = "https://github.com/matcornic/hugo-theme-learn"
+  weight = 10
