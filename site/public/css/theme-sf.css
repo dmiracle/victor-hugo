@@ -7,8 +7,8 @@
     --MAIN-LINK-HOVER-color:#d01616; /* Color of hovered links */
     --MAIN-ANCHOR-color: #f31c1c; /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color:#dc1010; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#e23131; /*Color of menu header border */ 
+    --MENU-HEADER-BG-color:#f60; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#e50; /*Color of menu header border */ 
 
     --MENU-SEARCH-BG-color:#b90000; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #ef2020; /* Override search field border color */
